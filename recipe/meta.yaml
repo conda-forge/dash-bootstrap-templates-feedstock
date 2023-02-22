@@ -1,5 +1,5 @@
 {% set name = "dash-bootstrap-templates" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dash-bootstrap-templates-{{ version }}.tar.gz
-  sha256: 746a3e30a2fd963c00b07cbcc23204d27434f2e2793d73d11ffbc5cde0193610
+  sha256: cdd7971b2af7bf5ed2f73c771eed97505a42246d7b00299f380de5ed372402b3
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
