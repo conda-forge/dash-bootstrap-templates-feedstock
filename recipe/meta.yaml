@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - flask <2.3.0
-    - werkzeug <2.3.0
+    - flask
+    - werkzeug
     - dash
     - dash-bootstrap-components >=1.0.0
     - dash-core-components >=1.3.1
